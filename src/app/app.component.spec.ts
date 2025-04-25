@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'misw4104-evaluacion-semana-4' title`, () => {
+  it(`should have the 'TuSegundazo.com' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('misw4104-evaluacion-semana-4');
+    expect(app.title).toEqual('TuSegundazo.com');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, misw4104-evaluacion-semana-4');
+    expect(compiled.querySelector('h1')?.textContent).toContain('TuSegundazo.com');
   });
 });

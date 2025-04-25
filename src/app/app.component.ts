@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'misw4104-evaluacion-semana-4';
+  title = 'TuSegundazo.com';
 }
