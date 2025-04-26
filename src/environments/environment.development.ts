@@ -1,4 +1,4 @@
 export const environment = {
   dataUrl:
-    'https://gist.githubusercontent.com/josejbocanegra/17bb8c76405e43655d551a90800c8a81/raw/d41b4acc3457e51e7533fad6d5e9925ee9676457/202212_MISW4104_Grupo1.json',
+    'https://gist.githubusercontent.com/oscarsaraza/b161aece356862af7539409f0b726cc2/raw/62ee90ac2af3cbec1ceb4a0e88e47dfbf0f6251c/ejercicio-vehiculos.json',
 };
