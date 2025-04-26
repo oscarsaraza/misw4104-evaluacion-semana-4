@@ -11,6 +11,7 @@ import { VehiculosService } from '../vehiculos.service';
 })
 export class ListaVehiculosComponent {
   vehiculos: Vehiculo[] = [];
+  vehiculoSeleccionado: Vehiculo | null = null;
 
   constructor(private vehiculosService: VehiculosService) {}
 
@@ -24,5 +25,10 @@ export class ListaVehiculosComponent {
         this.vehiculos = vehiculos;
       },
     });
+  }
+
+  verDetalle(vehiculoId: number) {
+    this.vehiculoSeleccionado =
+      this.vehiculos.find((vehiculo) => vehiculo.id === vehiculoId) || null;
   }
 }
