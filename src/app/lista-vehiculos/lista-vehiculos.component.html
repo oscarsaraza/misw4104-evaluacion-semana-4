@@ -22,6 +22,12 @@
         </tr>
       </tbody>
     </table>
+
+    <div>
+      <div *ngFor="let cuenta of conteoPorMarca">
+        Total {{ cuenta.marca }}: {{ cuenta.total }}
+      </div>
+    </div>
   </div>
 
   <!-- Mostrar el vehículo seleccionado -->
